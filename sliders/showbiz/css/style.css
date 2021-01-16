@@ -1,0 +1,22 @@
+/*----------------------------------------------------------------------------- 
+
+RAMA BASIC STYLES OF HTML DOCUMENT
+
+Screen Stylesheet 
+
+version:   	1.0 
+date:      	07/27/11 
+author:		freshline
+email:     	support@version-four.com 
+website:   	http://www.version-four.com
+-----------------------------------------------------------------------------*/
+
+/***********************
+	-	BASICS 	-
+***********************/
+html { width: 100%; overflow-x:hidden; margin: 0; padding: 0; }
+ol,
+ul { list-style: none; }
+a { text-decoration:none; }
+
+

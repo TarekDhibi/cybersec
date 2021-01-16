@@ -1,0 +1,69 @@
+/* Tiny Carousel */
+#slider1 { height: 280px; overflow:hidden; padding:0;  }
+#slider1 h2 { }
+#slider1 .viewport { margin-top:0px; padding:0; float: left; width:940px; height:280px; overflow: hidden; position: relative;  }
+#slider1 .buttons {  display: block; float:left; width:25px; height: 25px; text-indent:-999em; overflow: hidden; position: relative;  }
+#slider1 .prev { background: url(../images/arr_l.png) top no-repeat; margin:0 1px 10px 0;  }
+#slider1 .next { background: url(../images/arr_r.png) top no-repeat; margin:0;  }
+#slider1 .prev:hover { background: url(../images/arr_l_a.png) top no-repeat; margin:0 1px 10px 0;  }
+#slider1 .next:hover { background:url(../images/arr_r_a.png) top no-repeat; margin:0;  }
+#slider1 .disable { visibility: visible; }
+#slider1 .overview { list-style: none; position: absolute; padding: 0; margin: 0; width:auto; left: 0 top: 0; }
+#slider1 .overview li{ float: left; margin: 00; padding:0; height: auto; width:auto;}
+/* Tiny Carousel2 */
+#slider2 { height: 410px; overflow:hidden; padding:0;  }
+#slider2 h2 { }
+#slider2 .viewport { margin-top:0px; padding:0; float: left; width:940px; height:410px; overflow: hidden; position: relative;  }
+#slider2 .buttons {  display: block; float:left; width:25px; height: 25px; text-indent:-999em; overflow: hidden; position: relative;  }
+#slider2 .prev { background: url(../images/arr_l.png) top no-repeat; margin:0 1px 10px 0;  }
+#slider2 .next { background: url(../images/arr_r.png) top no-repeat; margin:0;  }
+#slider2 .prev:hover { background: url(../images/arr_l_a.png) top no-repeat; margin:0 1px 10px 0;  }
+#slider2 .next:hover { background:url(../images/arr_r_a.png) top no-repeat; margin:0;  }
+#slider2 .disable { visibility: visible; }
+#slider2 .overview { list-style: none; position: absolute; padding: 0; margin: 0; width:auto; left: 0 top: 0; }
+#slider2 .overview li{ float: left; margin: 00; padding:0; height: auto; width:auto;}
+
+/* Tiny Carousel3 */
+#slider3 { height: 250px; overflow:hidden; padding:0;  }
+#slider3 h2 { margin:0 0 -50px 0;}
+#slider3 .viewport { margin:0; padding:0; float: left; width:300px; height:250px; overflow: hidden; position: relative;  }
+#slider3 .buttons {  display: block; float:left; width:15px; height: 15px; text-indent:-999em; overflow: hidden; position: relative;  }
+#slider3 .prev { background: url(../images/arr_l.png) top no-repeat; margin:0 1px 10px 0;  }
+#slider3 .next { background: url(../images/arr_r.png) top no-repeat; margin:0;  }
+#slider3 .prev:hover { background: url(../images/arr_l_a.png) top no-repeat; margin:0 1px 10px 0;  }
+#slider3 .next:hover { background:url(../images/arr_r_a.png) top no-repeat; margin:0;  }
+#slider3 .disable { visibility: visible; }
+#slider3 .overview { list-style: none; position: absolute; padding: 0; margin: 0; width:auto; left: 0 top: 0; }
+#slider3 .overview li{ float: left; margin: 0 5px 0 0; padding:0; height: auto; width:300px;}
+/* responsive width */
+@media screen and (min-width:480px) and (max-width:800px) {
+  /* Target landscape smartphones, portrait tablets, narrow desktops  */
+#slider1 .viewport { margin:0 10px 0 0; padding:0; float: left; height:400px; overflow: hidden; position: relative; }
+#slider2 .viewport { margin:0; padding:0; float: left;  height:450px; overflow: hidden; position: relative; }
+}
+
+@media screen and (max-width:479px) {
+  /* Target portrait smartphones */
+#slider1 .viewport { margin:0 10px 0 0; padding:0; float: left; width:230px; height:400px; overflow: hidden; position: relative; }
+#slider2 .fr { display:none;}
+#slider2 .viewport { margin:0 10px 0 0; padding:0; float: left; width:230px; height:400px; overflow: hidden; position: relative; }
+  
+}
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.overview .col4 { width: 195px; }  	 
+	}
+	@media only screen and (max-width: 479px) {
+		.viewport .col4 { width: 215px; } 
+	}
+
+@media all and (orientation: landscape) {
+  /* Target device in landscape mode */
+
+}
+
+@media all and (orientation: portrait) {
+  /* Target device in portrait mode */
+ 	 
+}
+/* END responsive width */
